@@ -9,7 +9,7 @@
 - 4 things to learn any language
     - Terms
     - Data Types
-    - Actions
+    - Actions (aka functions)
     - Best Practices
 - Fundamental Data types: (a value in Python)
     - ` int, float, bool, str, list, tuple, set, dict `
@@ -17,3 +17,16 @@
     - `Supercar`
 - Specialized Data Types (Special packages and modules)
 - None (i.e. nothing - absence of value)
+
+Operator Precedence - BODMAS - `(), **, */, +- `
+
+#### Best practices of naming variables
+- <b>snake_case</b> (all small with _ instead of spaces)
+- Start with lowercase or underscore (_variable = private variable)
+- Case sensitive
+- Good practice for constants - Do all caps with underscore (`PI = 3.14`)
+- <b>Dunder variables</b>
+    - Typically used to store metadata or are built into the system
+    - Starts with 2 Underscores - Do not create them!
+- Assign rapidly values to variables (shorthand)
+    - ` a, b, c = 1, 2, 3`
