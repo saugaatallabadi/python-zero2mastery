@@ -20,7 +20,7 @@
 
 Operator Precedence - BODMAS - `(), **, */, +- `
 
-#### Best practices of naming variables
+### Best practices of naming variables
 - <b>snake_case</b> (all small with _ instead of spaces)
 - Start with lowercase or underscore (_variable = private variable)
 - Case sensitive
@@ -28,5 +28,13 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - <b>Dunder variables</b>
     - Typically used to store metadata or are built into the system
     - Starts with 2 Underscores - Do not create them!
-- Assign rapidly values to variables (shorthand)
-    - ` a, b, c = 1, 2, 3`
+- Python uses `None` instead of `null`
+- Refer main.py from Section3 for below:
+- <b>String</b>
+- <b>List</b>
+- <b>Dictionary</b>
+- <b>Tuple</b>
+- <b>Sets</b>
+
+## Section 4
+- if, else, and elif
