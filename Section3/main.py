@@ -110,3 +110,4 @@ print(list(set(my_list)))  # In case want to remove duplicate usernames
 
 # print(my_set | my_set2) # For Union
 # print(my_set & my_set2) # For Intersection
+

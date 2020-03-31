@@ -38,3 +38,8 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 
 ## Section 4
 - if, else, and elif
+- <b>Ternary Operator</b>
+- == checks value, ```'a' is 'b'``` checks location in memory
+- ```break, continue, pass``` (pass does nothing; but good for placeholder inside loops)
+- Parameters- When defining a function (Generic) ; Arguments- Values when calling a function
+- Docstrings (''' This is a docstring ''')
