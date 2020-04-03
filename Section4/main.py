@@ -80,7 +80,7 @@ hello('Saugaat', 'emoji1')
 
 # *args, **kwargs
 # Rule: params, *args, default parameters, **kwargs
-
+# args = Arguments, kwargs = Keyword arguments
 
 # def super_func(*args, **kwargs):
 #     print(*args)

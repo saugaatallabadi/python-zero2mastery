@@ -27,7 +27,7 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - Good practice for constants - Do all caps with underscore (`PI = 3.14`)
 - <b>Dunder variables</b>
     - Typically used to store metadata or are built into the system
-    - Starts with 2 Underscores - Do not create them!
+    - Starts with 2 Underscores - Do not create them! eg: `__init__`
 - Python uses `None` instead of `null`
 - Refer main.py from Section3 for below:
 - <b>String</b>
@@ -43,3 +43,19 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - ```break, continue, pass``` (pass does nothing; but good for placeholder inside loops)
 - Parameters- When defining a function (Generic) ; Arguments- Values when calling a function
 - Docstrings (''' This is a docstring ''')
+
+## Section 5
+- OOP- A paradigm to structure code. Break down into little objects.
+- Class- BluePrint; Objects- Instances (A class can be instantiated i.e. Create an object/an instance)
+- 4 Pillars of OOP:
+    - <b>Encapsulation</b>
+        - Binding of data and functions that manipulate that data (Player- name, age, run())
+    - <b>Abstraction</b>
+        - Hiding/abstracting information and giving only that's necessary
+    - <b>Inheritance</b>
+        - Allows new objects to take on the properties of existing objects
+    - <b>Polymorphism</b>
+        - Many forms
+        - Ways in which object classes can share the share method names, but behaves differently based on what object calls them (attack() by Archer different from attack() by Wizard)
+- <b>Dunder methods</b>
+- <b>MRO- Method Resolution Order</b>
