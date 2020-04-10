@@ -1,11 +1,11 @@
 # Class Notes:
 
-## Section 2
+## Section 2 (Intro)
 - Python usually uses Interpreter (goes line by line), not compiler (they take entire code and turns to machine code).
 - cpython is Interpreter. Creates bytecode (`LOAD_GLOBAL` etc). Uses cypython VM to convert to 0s and 1s.
 - Python is slower than C, C#, Java, but good at programmer productivity.
 
-## Section 3
+## Section 3 (Basics)
 - 4 things to learn any language
     - Terms
     - Data Types
@@ -36,15 +36,16 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - <b>Tuple</b>
 - <b>Sets</b>
 
-## Section 4
+## Section 4 (Basics II)
 - if, else, and elif
 - <b>Ternary Operator</b>
+- A method is a function that lives inside a class (Unsure)
 - == checks value, ```'a' is 'b'``` checks location in memory
 - ```break, continue, pass``` (pass does nothing; but good for placeholder inside loops)
 - Parameters- When defining a function (Generic) ; Arguments- Values when calling a function
 - Docstrings (''' This is a docstring ''')
 
-## Section 5
+## Section 6 (OOP)
 - OOP- A paradigm to structure code. Break down into little objects.
 - Class- BluePrint; Objects- Instances (A class can be instantiated i.e. Create an object/an instance)
 - 4 Pillars of OOP:
@@ -59,3 +60,15 @@ Operator Precedence - BODMAS - `(), **, */, +- `
         - Ways in which object classes can share the share method names, but behaves differently based on what object calls them (attack() by Archer different from attack() by Wizard)
 - <b>Dunder methods</b>
 - <b>MRO- Method Resolution Order</b>
+
+## Section 6 (Functional Programming)
+- Functional Programming (separate data and functions)
+- Instead of 4 pillars - It's just "Pure functions"
+    - Example: [1,2,3] -> f() -> [2,4,6]
+- A function should not have a 'side effect'
+- Functions- map(), filter(), zip(), reduce()
+- Lambda expressions
+- Comprehensions (list/set/dictionary comprehensions)
+
+## Section 7 (Decorators)
+-  
