@@ -43,6 +43,7 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - == checks value, ```'a' is 'b'``` checks location in memory
 - ```break, continue, pass``` (pass does nothing; but good for placeholder inside loops)
 - Parameters- When defining a function (Generic) ; Arguments- Values when calling a function
+- ```@classmethod```, ```@staticmethod```
 - Docstrings (''' This is a docstring ''')
 
 ## Section 6 (OOP)
@@ -71,4 +72,4 @@ Operator Precedence - BODMAS - `(), **, */, +- `
 - Comprehensions (list/set/dictionary comprehensions)
 
 ## Section 7 (Decorators)
--  
+-  Higher Order Functions - a function that either returns function, or uses func as parameter. Eg: map, reduce
